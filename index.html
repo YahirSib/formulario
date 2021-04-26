@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/form_style.css">
+    <title>Formulario con bootstrap</title>
+  </head>
+  <body>
+
+       <section class="container">
+           <h3 class="text-uppercase text-center">Registro de estudiantes</h3>
+           <p class="lead text-center">Ingrese los datos solicitados para registrar un estudiante</p>
+
+           <form action="" class="justify-content-center flex-column ">
+               <div class="form-group my-2">
+                   <label for="" class="mx-2 hidden-sm-down">Nombre completo:</label>
+                   <input type="text" maxlength="50" placeholder="Ingresa tu nombre aquí" class="form-control" pattern="[a-z]+">
+               </div>
+               <div class="form-group my-2">
+                   <label for="" class="mx-2 hidden-sm-down">Fecha de nacimiento:</label>
+                   <input type="date" class="form-control">
+               </div>
+               <div class="form-group my-2">
+                <label for="" class="mx-2 hidden-sm-down">DUI:</label>
+                <input type="text" minlenght="8" maxlength="8" pattern="[0-9]{8}" placeholder="Ingresa tu DUI" class="form-control">
+            </div>
+            <div class="form-inline group my-2">
+                <label for="" class="mx-2 hidden-sm-down">Selecciona tu género:</label>
+                <div class="form-check mx-2">
+                    <input class="form-check-input" type="radio" name="exampleRadios" value="masculino">
+                    <label class="form-check-label">
+                      Masculino
+                    </label>
+                  </div>
+                  <div class="form-check mx-2">
+                    <input class="form-check-input" type="radio" name="exampleRadios" value="femenino">
+                    <label class="form-check-label">
+                      Femenino
+                    </label>
+                  </div>
+              </div>
+              <div class="form-group my-2">
+                <label for="" class="mx-2 hidden-sm-down">Correo electrónico:</label>
+                <input type="text" placeholder="Ingresa tu nombre correo" class="form-control" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+            </div>
+            <div class="form-group my-2">
+                <label for="" class="mx-2 hidden-sm-down">Carnet de estudiante:</label>
+                <input type="text" maxlength="8" pattern="[0-9]{8}" placeholder="Ingresa tu carnet" class="form-control">
+            </div>
+            <div class="form-group my-2">
+                <label for="" class="mx-2 hidden-sm-down">Teléfono móvil:</label>
+                <input type="tel" maxlength="8" pattern="[0-9]{8}" placeholder="Ingresa tu teléfono" class="form-control">
+            </div>
+            <div class="form-group my-2">
+                <label for="" class="mx-2 hidden-sm-down">Dirección:</label>
+                <textarea class="form-control" aria-label="With textarea" placeholder="Dirección"></textarea>
+            </div>
+               <div class="form-group mx-2 my-2">
+                <button class="btn btn-danger" type="submit">Registrar estudiante</button>
+            </div>
+           </form>
+       </section>
+           
+
+       
+
+   
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+  </body>
+</html>
